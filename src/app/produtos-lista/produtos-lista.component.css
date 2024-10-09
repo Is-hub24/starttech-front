@@ -5,6 +5,7 @@
     width: 90%;
     margin: auto; /* Centraliza a tabela */
     border-collapse: collapse; /* Remove espaços entre as bordas */
+    box-shadow: -2px 2px 15px black;
   }
   
  .table th, .table td {
@@ -33,12 +34,12 @@
   .btn-info {
     background-color: #03a9f4; /* Cor do botão de edição */
     border: none;
-    color: white;
+    color: rgb(247, 244, 244);
     margin-right: 5px; /* Espaçamento entre os botões */
   }
   
   .btn-info :hover {
-    background-color: #0288d1;
+    background-color: #145bb2;
   }
   
   .btn-danger {
@@ -52,10 +53,11 @@
   }
   
   .btn-success {
-    background-color: #388e3c; /* Cor do botão de adicionar */
+    background-color: #7d5d0c; /* Cor do botão de adicionar */
     border: none;
     color: white;
     margin-top: 20px;
+    box-shadow: -2px 2px 10px black;
   }
   
   .btn-success :hover {
@@ -74,4 +76,11 @@
     text-align: center; /* Centraliza o título */
     margin-bottom: 20px;
   }
-  
+  .primeira__linha__tabela th {
+      background-color: #8b6817;
+  }
+  .titulo {
+    /* background-color: #ffffff; */
+    /* box-shadow: -2px 2px 12px #1b1505; */
+    filter: drop-shadow(-2px 2px 5px #1b1505);
+  }

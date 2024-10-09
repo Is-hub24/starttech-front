@@ -10,15 +10,15 @@ body, html {
     margin-top: 20px;
   }
   
-  .footer {
+  footer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #f8f9fa; /* Defina a cor de fundo do footer */
+    background-color: #02172d; /* Defina a cor de fundo do footer */
     text-align: center; /* Centraliza o texto */
     padding: 10px 0; /* Espaçamento interno */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 -2px 5px rgba(188, 100, 100, 0.1); 
   }
  
   
